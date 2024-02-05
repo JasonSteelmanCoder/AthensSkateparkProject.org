@@ -20,9 +20,11 @@ nav {
     margin-right: 1rem;
 }
 
-.official, .event {
+.official {
     background-color: lightgrey;
-    padding-left: 3rem;
+    padding-left: 2rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
 
 .call-to-action {
@@ -43,11 +45,20 @@ nav {
     min-height: 70vh;
 }
 
+.event {
+    background-color: lightgrey;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
 
-/* What image could we use to represent the meeting? */
-/* #event-1-img-container {
-    background-image: tbd;
-} */
+/* There might be better photos for this. */
+#event-1-img-container {
+    margin: 1rem;
+    min-width: 30vw;
+    background-image: url('./meeting_cropped.jpg');
+    background-size: cover;
+    background-position: top;
+}
 
 
 
