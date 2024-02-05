@@ -2,6 +2,24 @@ nav, footer, #get-involved {
     background-color: lightblue;
 }
 
+nav {
+    display: flex;
+    align-items: center;
+}
+
+#logo-container {
+    flex-grow: 1;
+}
+
+#logo {
+    max-height: 2.5rem;
+    margin: .5rem;
+}
+
+.nav-link {
+    margin-right: 1rem;
+}
+
 .official, .event {
     background-color: lightgrey;
     padding-left: 3rem;
@@ -10,12 +28,21 @@ nav, footer, #get-involved {
 .call-to-action {
     border: 1px solid black;
     padding: 0.5rem;
+    background-color: white;
 }
 
-/* I asked Corwin to provide photos of skate camp for this section. */
-/* #hero-section {
-    background-image: tbd;
-} */
+/* More photos here: https://accls.smugmug.com/Southeast-Clarke-Park/Skate-Camp-2023/n-vv7X64/i-VrXNgDS/A */
+/* Please feel free to substitute photos. */
+#hero-img-container {
+    color: white;
+    font-size: larger;
+    background-image: url('./kickturn.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    min-height: 70vh;
+}
+
 
 /* What image could we use to represent the meeting? */
 /* #event-1-img-container {
