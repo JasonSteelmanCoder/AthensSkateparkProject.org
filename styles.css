@@ -1,0 +1,26 @@
+nav, footer, #get-involved {
+    background-color: lightblue;
+}
+
+.official, .event {
+    background-color: lightgrey;
+    padding-left: 3rem;
+}
+
+.call-to-action {
+    border: 1px solid black;
+    padding: 0.5rem;
+}
+
+/* I asked Corwin to provide photos of skate camp for this section. */
+/* #hero-section {
+    background-image: tbd;
+} */
+
+/* What image could we use to represent the meeting? */
+/* #event-1-img-container {
+    background-image: tbd;
+} */
+
+
+
