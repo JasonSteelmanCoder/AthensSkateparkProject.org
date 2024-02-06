@@ -72,6 +72,7 @@ h2 {
     background-color: lightgrey;
     display: grid;
     grid-template-columns: 1fr 2fr;
+    margin-bottom: 0.5rem;
 }
 
 /* There might be better photos for this. */
