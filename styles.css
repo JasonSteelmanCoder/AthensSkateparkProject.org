@@ -2,6 +2,10 @@
     box-sizing: border-box;
 }
 
+body {
+    margin: 0;
+}
+
 nav, footer, #get-involved {
     background-color: lightblue;
 }
@@ -92,5 +96,8 @@ h2 {
     background-position: center;
 }
 
-
+footer p {
+    margin: 0;
+    padding: 0.25rem;
+}
 
