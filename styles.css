@@ -1,3 +1,7 @@
+* {
+    box-sizing: border-box;
+}
+
 nav, footer, #get-involved {
     background-color: lightblue;
 }
@@ -20,17 +24,36 @@ nav {
     margin-right: 1rem;
 }
 
+#page-title {
+    margin-top: 0;
+}
+
+#get-involved {
+    padding-bottom: 2rem;
+}
+
+h2 {
+    margin-top: 0;
+    padding-top: 1rem;
+}
+
 .official {
-    background-color: lightgrey;
-    padding-left: 2rem;
+    background-color: white;
+    padding: 1rem 2rem;
     margin-left: 1rem;
     margin-right: 1rem;
+    margin-top: 1rem;
+    border: 1px solid black;
 }
 
 .call-to-action {
     border: 1px solid black;
     padding: 0.5rem;
     background-color: white;
+}
+
+.action-button {
+    margin-left: 1rem;
 }
 
 /* More photos here: https://accls.smugmug.com/Southeast-Clarke-Park/Skate-Camp-2023/n-vv7X64/i-VrXNgDS/A */
@@ -58,6 +81,14 @@ nav {
     background-image: url('./meeting_cropped.jpg');
     background-size: cover;
     background-position: top;
+}
+
+#event-2-img-container {
+    margin: 1rem;
+    min-width: 30vw;
+    background-image: url('./meeting_emblem.jpg');
+    background-size: cover;
+    background-position: center;
 }
 
 
