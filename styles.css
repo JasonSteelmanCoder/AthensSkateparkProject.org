@@ -9,8 +9,12 @@ body {
     sans-serif;
 }
 
-nav, footer, #get-involved {
-    background-color: lightblue;
+.edge {
+    padding-left: 0.5rem;
+}
+
+nav, footer, .official, .event {
+    background-color: rgb(227, 226, 226);
 }
 
 nav {
@@ -35,7 +39,11 @@ nav {
     margin-top: 0;
 }
 
-#get-involved {
+#main-button {
+    margin-left: .5rem;
+}
+
+#get-involved-section {
     padding-bottom: 2rem;
 }
 
@@ -45,18 +53,21 @@ h2 {
 }
 
 .official {
-    background-color: white;
     padding: 1rem 2rem;
     margin-left: 1rem;
     margin-right: 1rem;
     margin-top: 1rem;
     border: 1px solid black;
+    border-radius: 4px;
 }
 
 .call-to-action {
-    border: 1px solid black;
     padding: 0.5rem;
-    background-color: white;
+    color: white;
+    font-weight: bolder;
+    text-decoration: none;
+    border-radius: 4px;
+    background-color: rgb(85, 204, 255);
 }
 
 .action-button {
@@ -100,10 +111,17 @@ h2 {
 }
 
 .event {
-    background-color: lightgrey;
     display: grid;
     grid-template-columns: 1fr 2fr;
     margin-bottom: 0.5rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
+    border-radius: 4px;
+    border: 1px solid black;
+}
+
+.event h4, .event p {
+    display: inline;
 }
 
 /* There might be better photos for this. */
@@ -128,3 +146,12 @@ footer p {
     padding: 0.25rem;
 }
 
+@media screen and (min-width: 800px) {
+    #intro-text {
+        max-width: 40vw;
+    }
+    
+    .event-image {
+        min-height: 11rem;
+    }
+}
