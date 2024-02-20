@@ -37,6 +37,7 @@ nav {
 
 #page-title {
     margin-top: 1rem;
+    font-size: 39px;
 }
 
 #main-button {
@@ -148,6 +149,17 @@ h2 {
 footer p {
     margin: 0;
     padding: 0.25rem;
+}
+
+.social-link {
+    text-decoration: none;
+}
+
+@media screen and (min-width: 661px) {
+    #page-title {
+        font-size: 55px;
+        margin-bottom: 1rem;
+    }
 }
 
 @media screen and (min-width: 800px) {
