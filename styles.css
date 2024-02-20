@@ -141,6 +141,10 @@ h2 {
     background-position: center;
 }
 
+#gallery-image {
+    max-height: 60vh;
+}
+
 footer p {
     margin: 0;
     padding: 0.25rem;
