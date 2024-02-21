@@ -140,6 +140,11 @@ h2 {
     background-position: center;
 }
 
+#gallery-image-container {
+    height: 60vh;
+    margin-bottom: 0.5rem;
+}
+
 #gallery-image {
     max-height: 60vh;
     max-width: 97vw;
