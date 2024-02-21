@@ -82,7 +82,7 @@ h2 {
     position: relative;
     color: white;
     font-size: larger;
-    background-image: url('./kickturn.jpg');
+    background-image: url('./mainImages/kickturn.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -129,7 +129,7 @@ h2 {
 #event-1-img-container {
     margin: 1rem;
     min-width: 30vw;
-    background-image: url('./meeting_cropped.jpg');
+    background-image: url('./mainImages/meeting_cropped.jpg');
     background-size: cover;
     background-position: top;
 }
@@ -137,7 +137,7 @@ h2 {
 #event-2-img-container {
     margin: 1rem;
     min-width: 30vw;
-    background-image: url('./meeting_emblem.jpg');
+    background-image: url('./mainImages/meeting_emblem.jpg');
     background-size: cover;
     background-position: center;
 }
