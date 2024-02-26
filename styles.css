@@ -200,3 +200,9 @@ footer p {
         font-size: 2rem;
     }
 }
+
+@media screen and (max-width: 400px) {
+    step-list {
+        min-height: 94%;
+    }
+}
