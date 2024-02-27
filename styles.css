@@ -174,10 +174,16 @@ h2 {
 footer p {
     margin: 0;
     padding: 0.25rem;
+    display: flex;
 }
 
 .social-link {
     text-decoration: none;
+}
+
+#footer-cta {
+    display: inline-block;
+    margin: .5rem;
 }
 
 @media screen and (min-width: 661px) {
