@@ -61,10 +61,10 @@ h2 {
     content: '1';
     color: rgba(250, 128, 114, 0.2);
     position: absolute;
-    top: 2.3rem;
+    top: 2.7rem;
     left: 1.4rem;
     z-index: -1;
-    font-size: 4.5rem;
+    font-size: 3.8rem;
     font-weight: 1000;
 }
 
@@ -76,10 +76,10 @@ h2 {
     content: '2';
     color: rgba(250, 128, 114, 0.2);
     position: absolute;
-    top: -2.3rem;
+    top: -1.9rem;
     left: 1.4rem;
     z-index: -1;
-    font-size: 4.5rem;
+    font-size: 3.8rem;
     font-weight: 1000;
 }
 
@@ -91,10 +91,10 @@ h2 {
     content: '3';
     color: rgba(250, 128, 114, 0.2);
     position: absolute;
-    top: -2.7rem;
+    top: -2.3rem;
     left: 1.4rem;
     z-index: -1;
-    font-size: 4.5rem;
+    font-size: 3.8rem;
     font-weight: 1000;
 }
 
