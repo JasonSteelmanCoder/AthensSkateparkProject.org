@@ -59,7 +59,7 @@ h2 {
 
 #sign-up::before {
     content: '1';
-    color: rgba(250, 128, 114, 0.2);
+    color: rgba(250, 128, 114, 0.3);
     position: absolute;
     top: 3rem;
     z-index: -1;
@@ -73,7 +73,7 @@ h2 {
 
 #contact-officials::before {
     content: '3';
-    color: rgba(250, 128, 114, 0.2);
+    color: rgba(250, 128, 114, 0.3);
     position: absolute;
     top: -1.6rem;
     z-index: -1;
@@ -87,7 +87,7 @@ h2 {
 
 #attend-event::before {
     content: '2';
-    color: rgba(250, 128, 114, 0.2);
+    color: rgba(250, 126, 112, 0.3);
     position: absolute;
     top: -2rem;
     z-index: -1;
