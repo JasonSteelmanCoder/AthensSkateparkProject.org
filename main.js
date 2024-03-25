@@ -1,3 +1,4 @@
+// rotating gallery
 const galleryImage = document.getElementById('gallery-image');
 
 const galleryPhotos = {
@@ -20,3 +21,40 @@ setInterval(() => {
     galleryImage.setAttribute('src', galleryPhotos[currentIndex]["src"]);
     galleryImage.setAttribute('alt', galleryPhotos[currentIndex]["alt"]);
 }, 4000);
+
+// find date of next public meeting:
+function getNextThirdSunday() {
+    const today = new Date();
+    const year = today.getFullYear();
+    let month = today.getMonth(); 
+  
+    const findThirdSunday = (isNextMonth = false) => {
+      let firstDayOfMonth;
+      if (!isNextMonth) {
+        firstDayOfMonth = new Date(year, month, 1);
+      } else {
+        if (month !== 11) {
+          firstDayOfMonth = new Date(year, month + 1, 1);
+        } else {
+          firstDayOfMonth = new Date(year + 1, 0, 1);
+        }
+        month += 1;
+      }
+        const dayOfWeek = firstDayOfMonth.getDay();
+        const daysToAdd = (dayOfWeek === 0) ? 0 : (7 - dayOfWeek);
+        const thirdSunday = new Date(year, month, 1 + daysToAdd + 14);
+        return thirdSunday;
+    };
+  
+    const options = { month: 'long', day: 'numeric' };
+  
+    const preliminaryResults = findThirdSunday();
+    if (preliminaryResults > today) {
+      return preliminaryResults.toLocaleDateString('en-US', options);
+    } else {
+      return findThirdSunday(true).toLocaleDateString('en-US', options);
+    }
+}
+
+const standardEventText = document.getElementById('standard-event-text');
+standardEventText.innerHTML += ` ${getNextThirdSunday()}`
