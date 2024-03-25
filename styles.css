@@ -169,9 +169,9 @@ h2 {
 #event-1-img-container {
     margin: 1rem;
     min-width: 30vw;
-    background-image: url('./mainImages/meeting_cropped.jpg');
+    background-image: url('./mainImages/temp_photos/pedal_driven_street_session.jpg');
     background-size: cover;
-    background-position: top;
+    background-position: left;
 }
 
 #event-2-img-container {
@@ -220,7 +220,7 @@ footer p {
 }
 
 #social-media-info {
-    padding-bottom: 2rem;
+    padding-bottom: 1rem;
 }
 
 .social-link {
