@@ -219,6 +219,10 @@ footer p {
     display: flex;
 }
 
+#social-media-info {
+    padding-bottom: 2rem;
+}
+
 .social-link {
     text-decoration: none;
 }
