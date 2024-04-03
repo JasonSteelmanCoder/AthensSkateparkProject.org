@@ -176,17 +176,19 @@ h2 {
 #event-1-img-container {
     margin: 1rem;
     min-width: 30vw;
-    background-image: url('./mainImages/temp_photos/pedal_driven_street_session.jpg');
-    background-size: cover;
+    background-image: url('./mainImages/temp_photos/athens-twilight.png');
+    background-size:contain;
+    background-repeat: no-repeat;
     background-position: left;
 }
 
 #event-2-img-container {
     margin: 1rem;
     min-width: 30vw;
-    background-image: url('./mainImages/meeting_nucis_front_porch.jpg');
-    background-size: cover;
-    background-position: left;
+    background-image: url('./mainImages/temp_photos/marigold-festival.webp');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 #steps {
