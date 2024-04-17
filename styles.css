@@ -212,6 +212,26 @@ h2 {
     max-width: 88%;
 }
 
+#faq-list {
+    margin-right: 2rem;
+}
+
+.question {
+    list-style-type: none;
+    font-weight: bolder;
+    background-color: rgb(227, 226, 226);
+    border: 1px solid black;
+    border-radius: 4px;
+    padding: 1rem;
+}
+
+
+.question p, .question li {
+    font-weight: 400;
+    padding-left: 2rem;
+    display: none;
+}
+
 #gallery-image-container {
     height: 60vh;
     margin-bottom: 0.5rem;
@@ -256,5 +276,4 @@ footer p {
     .event-image {
         min-height: 11rem;
     }
-
 }

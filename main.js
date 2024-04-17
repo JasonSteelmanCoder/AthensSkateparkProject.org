@@ -56,5 +56,21 @@ function getNextThirdSunday() {
     }
 }
 
+// Make FAQ's section accordion
+const questions = document.getElementsByClassName("question");
+for (let question of questions) {
+  question.addEventListener("click", (e) => {
+    const answer = e.target.children[0];
+    if (answer.style.display === "block") {
+      answer.style.display = "";
+    } else {
+      for (let question of questions) {
+        question.children[0].style.display = "";
+      }
+      answer.style.display = "block";
+    }
+  })
+}
+
 const standardEventText = document.getElementById('standard-event-text');
 standardEventText.innerHTML += ` ${getNextThirdSunday()}`
