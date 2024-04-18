@@ -60,14 +60,25 @@ function getNextThirdSunday() {
 const questions = document.getElementsByClassName("question");
 for (let question of questions) {
   question.addEventListener("click", (e) => {
-    const answer = e.currentTarget.children[0];
-    if (answer.style.display === "block") {
-      answer.style.display = "";
-    } else {
+    const answers = e.currentTarget.querySelectorAll('*');
+    if (answers[0].style.display === "") {
       for (let question of questions) {
-        question.children[0].style.display = "";
+        const openAnswers = question.querySelectorAll('*');
+        for (let openAnswer of openAnswers) {
+          openAnswer.style.display = "";
+        }
       }
-      answer.style.display = "block";
+    }
+    for (let answer of answers) {
+      if (answer.style.display === "") {
+        if (answer.nodeName === "LI") {
+          answer.style.display = "list-item";
+        } else {
+          answer.style.display = "block";
+        }
+      } else {
+        answer.style.display = "";
+      }
     }
   })
 }

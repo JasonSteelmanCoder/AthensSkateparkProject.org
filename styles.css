@@ -226,10 +226,18 @@ h2 {
 }
 
 
-.question p, .question li {
+.question p, .question ul, .question li {
     font-weight: 400;
     padding-left: 2rem;
     display: none;
+}
+
+.question li, #many-ways {
+    padding-left: 0;
+}
+
+.help-out-list {
+    list-style-type: disc;
 }
 
 #gallery-image-container {
