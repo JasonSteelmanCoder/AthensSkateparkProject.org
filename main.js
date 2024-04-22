@@ -73,6 +73,8 @@ for (let question of questions) {
       if (answer.style.display === "") {
         if (answer.nodeName === "LI") {
           answer.style.display = "list-item";
+        } else if (answer.classList.contains("inline-link")) {
+          answer.style.display = "inline";
         } else {
           answer.style.display = "block";
         }
