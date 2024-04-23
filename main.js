@@ -75,6 +75,8 @@ for (let question of questions) {
           answer.style.display = "list-item";
         } else if (answer.classList.contains("inline-link")) {
           answer.style.display = "inline";
+        } else if (answer.classList.contains("layout-figure")) {
+          answer.style.display = "flex";
         } else {
           answer.style.display = "block";
         }

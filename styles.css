@@ -235,6 +235,23 @@ h2 {
     padding-left: 0;
 }
 
+.layout-figure {
+    display: none;
+    flex-direction: column;
+    align-items: center;
+}
+
+#skatepark-layout {
+    max-width: 100%;
+    display: none;
+}
+
+#layout-caption {
+    display: none;
+    font-weight: lighter;
+    text-align: center;
+}
+
 .help-out-list {
     list-style-type: disc;
 }
@@ -282,5 +299,9 @@ footer p {
     
     .event-image {
         min-height: 11rem;
+    }
+
+    #skatepark-layout {
+        max-height: 55vh;
     }
 }

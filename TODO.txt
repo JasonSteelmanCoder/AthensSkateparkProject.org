@@ -1,4 +1,3 @@
-Fix the inner list in the accordion to look good on small screens
 Add skatepark image to the question about the new park's appearance
-In last FAQ, make "mailing list" and "events" into hyperlinks
+Add a "contact us" link in the footer
 Restyle answers to have no border, and a lighter background
