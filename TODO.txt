@@ -1,3 +1,2 @@
-Add skatepark image to the question about the new park's appearance
-Add a "contact us" link in the footer
 Restyle answers to have no border, and a lighter background
+Improve the size of the "layout" image on small screens
