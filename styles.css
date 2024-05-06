@@ -176,16 +176,16 @@ h2 {
 #event-1-img-container {
     margin: 1rem;
     min-width: 30vw;
-    background-image: url('./mainImages/temp_photos/athens-twilight.png');
+    background-image: url('./mainImages/temp_photos/marigold-festival.webp');
     background-size:contain;
     background-repeat: no-repeat;
-    background-position: left;
+    background-position: center;
 }
 
 #event-2-img-container {
     margin: 1rem;
     min-width: 30vw;
-    background-image: url('./mainImages/temp_photos/marigold-festival.webp');
+    background-image: url('./mainImages/temp_photos/reese-and-pope.png');
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
