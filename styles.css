@@ -191,6 +191,15 @@ h2 {
     background-position: center;
 }
 
+#event-3-img-container {
+    margin: 1rem;
+    min-width: 30vw;
+    background-image: url('./mainImages/temp_photos/BassLand\ Mini\ Ramp\ Jam.JPEG');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
 #steps {
     display: flex;
     align-items: center;
