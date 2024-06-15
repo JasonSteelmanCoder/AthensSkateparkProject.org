@@ -58,21 +58,21 @@ h2 {
 }
 
 #sign-up::before {
-    content: '1';
+    content: '2';
     color: rgba(250, 128, 114, 0.3);
     position: absolute;
-    top: 3rem;
+    top: -1.7rem;
     z-index: -1;
     font-size: 3.8rem;
     font-weight: 1000;
 }
 
-#contact-officials {
+#donate {
     position: relative;
 }
 
-#contact-officials::before {
-    content: '3';
+#donate::before {
+    content: '1';
     color: rgba(250, 128, 114, 0.3);
     position: absolute;
     top: -1.6rem;
@@ -86,7 +86,7 @@ h2 {
 }
 
 #attend-event::before {
-    content: '2';
+    content: '3';
     color: rgba(250, 126, 112, 0.3);
     position: absolute;
     top: -2rem;
