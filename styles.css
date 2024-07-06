@@ -81,6 +81,11 @@ h2 {
     font-weight: 1000;
 }
 
+.donate-button {
+    border-bottom: 3px solid black;
+    border-right: 3px solid black;
+}
+
 /* #donation-container {
     display: flex;
     padding: 1rem;
