@@ -81,6 +81,16 @@ h2 {
     font-weight: 1000;
 }
 
+/* #donation-container {
+    display: flex;
+    padding: 1rem;
+    background-color: rgb(227, 226, 226);
+    border: 1px solid black;
+    border-radius: 4px;
+    margin-left: .5rem;
+    margin-right: .5rem;
+} */
+
 #attend-event {
     position: relative;
 }
@@ -176,7 +186,7 @@ h2 {
 #event-1-img-container {
     margin: 1rem;
     min-width: 30vw;
-    background-image: url('./mainImages/temp_photos/BassLand\ Mini\ Ramp\ Jam.JPEG');
+    background-image: url('./mainImages/meeting_nucis_front_porch.jpg');
     background-size:contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -185,10 +195,10 @@ h2 {
 #event-2-img-container {
     margin: 1rem;
     min-width: 30vw;
-    background-image: url('./mainImages/temp_photos/athfest-logo.webp');
-    /* background-size: contain; */
+    background-image: url('./mainImages/temp_photos/pedal_driven_cycles_logo.avif');
+    background-size: contain;
     background-repeat: no-repeat;
-    background-position: left;
+    background-position: center;
 }
 
 #event-3-img-container {
