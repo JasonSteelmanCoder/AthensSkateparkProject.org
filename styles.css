@@ -102,7 +102,8 @@ h2 {
 }
 
 #percent-announcement {
-    margin: 1rem
+    margin: 1rem;
+    margin-top: 3rem; 
 }
 
 #percent-announcement b {
@@ -111,7 +112,10 @@ h2 {
 
 #uuid-bcefca09-4aa4-4739-a709-15c4a7cffd63 {
     width: 25%;
+    min-width: 200px;
+    max-width: 300px;
     height: fit-content;
+    margin-bottom: 2rem;
 }
 
 .outline {
