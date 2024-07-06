@@ -96,6 +96,32 @@ h2 {
     margin-right: .5rem;
 } */
 
+#fundraising-thermometer {
+    display: flex;
+    flex-direction: column;
+}
+
+#percent-announcement {
+    margin: 1rem
+}
+
+#percent-announcement b {
+    color: red;
+}
+
+#uuid-bcefca09-4aa4-4739-a709-15c4a7cffd63 {
+    width: 25%;
+    height: fit-content;
+}
+
+.outline {
+    position: relative;
+    z-index: revert;
+    overflow: visible;
+    border: 2px solid black;
+    background-color: transparent;
+}
+
 #attend-event {
     position: relative;
 }
