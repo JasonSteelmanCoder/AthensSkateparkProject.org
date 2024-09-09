@@ -226,7 +226,7 @@ h2 {
 #event-1-img-container {
     margin: 1rem;
     min-width: 30vw;
-    background-image: url('./mainImages/temp_photos/jnj_flea_market.webp');
+    background-image: url('./mainImages/meeting_nucis_front_porch.jpg');
     background-size:contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -235,7 +235,7 @@ h2 {
 #event-2-img-container {
     margin: 1rem;
     min-width: 30vw;
-    background-image: url('./mainImages/meeting_nucis_front_porch.jpg');
+    background-image: url('./mainImages/temp_photos/bassland_sesh.jpg');
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -244,7 +244,7 @@ h2 {
 #event-3-img-container {
     margin: 1rem;
     min-width: 30vw;
-    background-image: url('./mainImages/temp_photos/pedal_driven_cycles_logo.avif');
+    background-image: url('./mainImages/temp_photos/halloween.jpg');
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
