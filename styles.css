@@ -250,6 +250,10 @@ h2 {
     background-position: center;
 }
 
+.red-alert {
+    color: red;
+}
+
 #steps {
     display: flex;
     align-items: center;
