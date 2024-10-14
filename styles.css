@@ -82,8 +82,8 @@ h2 {
 }
 
 .donate-button {
-    border-bottom: 3px solid black;
-    border-right: 3px solid black;
+    border-bottom: 3px solid hsl(0, 0%, 50%);
+    border-right: 3px solid hsl(0, 0%, 50%);
 }
 
 /* #donation-container {
