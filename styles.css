@@ -235,7 +235,7 @@ h2 {
 #event-2-img-container {
     margin: 1rem;
     min-width: 30vw;
-    background-image: url('./mainImages/flagpole.JPG');
+    background-image: url('./mainImages/temp_photos/athentic.png');
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -244,7 +244,7 @@ h2 {
 #event-3-img-container {
     margin: 1rem;
     min-width: 30vw;
-    background-image: url('./mainImages/temp_photos/johnnys_ramp.jpg');
+    background-image: url('./mainImages/temp_photos/20_years_temp.jpg');
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
