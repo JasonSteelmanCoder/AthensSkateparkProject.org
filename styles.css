@@ -226,7 +226,7 @@ h2 {
 #event-1-img-container {
     margin: 1rem;
     min-width: 30vw;
-    background-image: url('./mainImages/temp_photos/spoas20th.jpg');
+    background-image: url('./mainImages/meeting_nucis_front_porch.jpg');
     background-size:contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -235,7 +235,7 @@ h2 {
 #event-2-img-container {
     margin: 1rem;
     min-width: 30vw;
-    background-image: url('./mainImages/temp_photos/twilight25.png');
+    background-image: url('./mainImages/temp_photos/star_spangled_classic_25.webp');
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -244,7 +244,7 @@ h2 {
 #event-3-img-container {
     margin: 1rem;
     min-width: 30vw;
-    background-image: url('./mainImages/temp_photos/marigold-festival.webp');
+    background-image: url('./mainImages/temp_photos/oglethorpe_4th.jpg');
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
