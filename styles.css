@@ -226,7 +226,7 @@ h2 {
 #event-1-img-container {
     margin: 1rem;
     min-width: 30vw;
-    background-image: url('./mainImages/temp_photos/bass_cartoon.jpg');
+    background-image: url('./mainImages/temp_photos/lights_at_spoa.jpg');
     background-size:contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -235,7 +235,7 @@ h2 {
 #event-2-img-container {
     margin: 1rem;
     min-width: 30vw;
-    background-image: url('./mainImages/temp_photos/spoa_rock_and_roll.jpg');
+    background-image: url('./mainImages/temp_photos/duncanfest_26.webp');
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -244,7 +244,7 @@ h2 {
 #event-3-img-container {
     margin: 1rem;
     min-width: 30vw;
-    background-image: url('./mainImages/temp_photos/full_park.jpg');
+    background-image: url('./mainImages/temp_photos/bb_gun_shootout.jpg');
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
